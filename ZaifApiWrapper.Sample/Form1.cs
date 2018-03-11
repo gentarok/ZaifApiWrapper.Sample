@@ -135,7 +135,7 @@ namespace SampleWinForm
                 dt = new DataTable(tableName);
 
                 var parameters = from m in method.GetParameters()
-                                 where m.ParameterType != typeof(CancellationToken)
+                                 where m.ParameterType != typeof(CancellationToken) && m.ParameterType != typeof(IProgress<RetryReport>)
                                  select m;
 
                 dt.Columns.AddRange(
