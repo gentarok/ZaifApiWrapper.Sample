@@ -54,6 +54,7 @@ namespace SampleWinForm
 
                 cts = new CancellationTokenSource();
                 args.Add(cts.Token);
+                args.Add(null);
 
                 try
                 {
