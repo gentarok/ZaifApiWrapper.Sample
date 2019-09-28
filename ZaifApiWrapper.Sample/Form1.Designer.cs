@@ -58,9 +58,9 @@
             // buttonExecute
             // 
             this.buttonExecute.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.buttonExecute.Location = new System.Drawing.Point(12, 526);
+            this.buttonExecute.Location = new System.Drawing.Point(13, 411);
             this.buttonExecute.Name = "buttonExecute";
-            this.buttonExecute.Size = new System.Drawing.Size(75, 23);
+            this.buttonExecute.Size = new System.Drawing.Size(80, 23);
             this.buttonExecute.TabIndex = 12;
             this.buttonExecute.Text = "実行(E)";
             this.buttonExecute.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // 
             this.buttonClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonClose.CausesValidation = false;
-            this.buttonClose.Location = new System.Drawing.Point(921, 526);
+            this.buttonClose.Location = new System.Drawing.Point(776, 411);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.Size = new System.Drawing.Size(80, 23);
             this.buttonClose.TabIndex = 14;
             this.buttonClose.Text = "閉じる(&X)";
             this.buttonClose.UseVisualStyleBackColor = true;
@@ -82,9 +82,9 @@
             // 
             this.comboBoxClass.CausesValidation = false;
             this.comboBoxClass.FormattingEnabled = true;
-            this.comboBoxClass.Location = new System.Drawing.Point(53, 14);
+            this.comboBoxClass.Location = new System.Drawing.Point(57, 14);
             this.comboBoxClass.Name = "comboBoxClass";
-            this.comboBoxClass.Size = new System.Drawing.Size(318, 20);
+            this.comboBoxClass.Size = new System.Drawing.Size(339, 20);
             this.comboBoxClass.TabIndex = 1;
             // 
             // label1
@@ -99,7 +99,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(377, 18);
+            this.label2.Location = new System.Drawing.Point(402, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 12);
             this.label2.TabIndex = 4;
@@ -109,9 +109,9 @@
             // 
             this.textBoxKey.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxKey.Location = new System.Drawing.Point(451, 15);
+            this.textBoxKey.Location = new System.Drawing.Point(481, 15);
             this.textBoxKey.Name = "textBoxKey";
-            this.textBoxKey.Size = new System.Drawing.Size(545, 19);
+            this.textBoxKey.Size = new System.Drawing.Size(375, 19);
             this.textBoxKey.TabIndex = 5;
             this.textBoxKey.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxKey_Validating);
             this.textBoxKey.Validated += new System.EventHandler(this.textBoxKey_Validated);
@@ -119,7 +119,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(377, 43);
+            this.label3.Location = new System.Drawing.Point(402, 43);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 12);
             this.label3.TabIndex = 6;
@@ -129,9 +129,9 @@
             // 
             this.textBoxSecret.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxSecret.Location = new System.Drawing.Point(451, 40);
+            this.textBoxSecret.Location = new System.Drawing.Point(481, 40);
             this.textBoxSecret.Name = "textBoxSecret";
-            this.textBoxSecret.Size = new System.Drawing.Size(545, 19);
+            this.textBoxSecret.Size = new System.Drawing.Size(375, 19);
             this.textBoxSecret.TabIndex = 7;
             this.textBoxSecret.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxSecret_Validating);
             this.textBoxSecret.Validated += new System.EventHandler(this.textBoxSecret_Validated);
@@ -145,12 +145,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewParameter.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewParameter.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.dataGridViewParameter.Location = new System.Drawing.Point(12, 81);
+            this.dataGridViewParameter.Location = new System.Drawing.Point(13, 81);
             this.dataGridViewParameter.MultiSelect = false;
             this.dataGridViewParameter.Name = "dataGridViewParameter";
+            this.dataGridViewParameter.RowHeadersWidth = 51;
             this.dataGridViewParameter.RowTemplate.Height = 21;
             this.dataGridViewParameter.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dataGridViewParameter.Size = new System.Drawing.Size(984, 60);
+            this.dataGridViewParameter.Size = new System.Drawing.Size(844, 60);
             this.dataGridViewParameter.TabIndex = 9;
             // 
             // textBoxOutput
@@ -159,12 +160,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxOutput.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxOutput.Location = new System.Drawing.Point(12, 159);
+            this.textBoxOutput.Location = new System.Drawing.Point(13, 159);
             this.textBoxOutput.Multiline = true;
             this.textBoxOutput.Name = "textBoxOutput";
             this.textBoxOutput.ReadOnly = true;
             this.textBoxOutput.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxOutput.Size = new System.Drawing.Size(984, 361);
+            this.textBoxOutput.Size = new System.Drawing.Size(844, 246);
             this.textBoxOutput.TabIndex = 11;
             // 
             // bindingSourceClass
@@ -189,9 +190,9 @@
             // 
             this.comboBoxMethod.CausesValidation = false;
             this.comboBoxMethod.FormattingEnabled = true;
-            this.comboBoxMethod.Location = new System.Drawing.Point(53, 38);
+            this.comboBoxMethod.Location = new System.Drawing.Point(57, 38);
             this.comboBoxMethod.Name = "comboBoxMethod";
-            this.comboBoxMethod.Size = new System.Drawing.Size(318, 20);
+            this.comboBoxMethod.Size = new System.Drawing.Size(339, 20);
             this.comboBoxMethod.TabIndex = 3;
             // 
             // label4
@@ -225,9 +226,9 @@
             // 
             this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonCancel.CausesValidation = false;
-            this.buttonCancel.Location = new System.Drawing.Point(93, 526);
+            this.buttonCancel.Location = new System.Drawing.Point(99, 411);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this.buttonCancel.Size = new System.Drawing.Size(80, 23);
             this.buttonCancel.TabIndex = 13;
             this.buttonCancel.Text = "中断(&C)";
             this.buttonCancel.UseVisualStyleBackColor = true;
@@ -235,9 +236,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1008, 561);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(869, 446);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
